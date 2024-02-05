@@ -16,11 +16,11 @@ To compare the libraries, we used 3 PDF files:
 For each library we extract the text from all files. Then give an annotation on a scale of 1 to 5 for each comparison criteria.
 Following, is the comparison table of the results
 
-| library      | Conventional Text | Handle Multicolumn | Handle Table |
-| ------------ | ----------------- | ------------------ | ------------ |
-| pdfplumber   |                   |                    |              |
-| pdftotext    |                   |                    |              |
-| pymupdf      |                   |                    |              |
-| pypdf2       |                   |                    |              |
-| unstructured |                   |                    |              |
+| library      | Conventional Text | Handle Multicolumn | Handle Table | Complex table |
+| ------------ | ----------------- | ------------------ | ------------ | ------------- |
+| pdfplumber   | 3,5               | 1                  | 2,5          | 2             |
+| pdftotext    |                   |                    |              |               |
+| pymupdf      |                   |                    |              |               |
+| pypdf2       |                   |                    |              |               |
+| unstructured |                   |                    |              |               |
 
