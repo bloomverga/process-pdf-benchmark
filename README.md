@@ -1,4 +1,4 @@
-# Benchmark of some PDF to text python libraries
+# Benchmark of some PDF-to-text python libraries
 The aim of this repo is to compare some tools to process pdf into text.
 The tools are :
 - [pdfplumber](https://github.com/jsvine/pdfplumber) : made by [jsvine](https://github.com/jsvine) for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
