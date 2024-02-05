@@ -21,6 +21,6 @@ Following, is the comparison table of the results
 | pdfplumber   | 18s        | 3.5               | 1                  | 2.5          | 2             |
 | pdftotext    |            |                   |                    |              |               |
 | pymupdf      | 0.4s       | 4                 | 5                  | 4            | 3             |
-| pypdf2       |            |                   |                    |              |               |
+| pypdf2       | 7.8s       | 4.5               | 5                  | 4            | 2.75          |
 | unstructured |            |                   |                    |              |               |
 
