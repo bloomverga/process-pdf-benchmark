@@ -14,13 +14,20 @@ To compare the libraries, we used 3 PDF files:
 - `wtables-food-calories.pdf`: Another conventional PDF with some tables
 
 For each library we extract the text from all files. Then give an annotation on a scale of 1 to 5 for each comparison criteria.
+- `total time`: Total time to process all the files;
+- `Conventional text`: How well the tool performs on conventional text
+- `Multicolumn`: How well the tool performs on multicolumn pdf document
+- `Table`: How well the tool process simple tables (each table line on 1 document) in pdf documents
+- `Complex Table`: How well the tool process complex tables (some table lines are on multiple document lines)
+- `Consistancy`: How well the tool is viable (performs the same good result on different documents)
+
 Following, is the comparison table of the results
 
-| library      | total time | Conventional Text | Handle Multicolumn | Handle Table | Complex table |
-| ------------ | ---------- | ----------------- | ------------------ | ------------ | ------------- |
-| pdfplumber   | 18s        | 3.5               | 1                  | 2.5          | 2             |
-| pdftotext    |            |                   |                    |              |               |
-| pymupdf      | 0.4s       | 4                 | 5                  | 4            | 3             |
-| pypdf2       | 7.8s       | 4.5               | 5                  | 4            | 2.75          |
-| unstructured |            |                   |                    |              |               |
+| library      | total time | Conventional Text | Multicolumn | Table | Complex table | consistancy |
+| ------------ | ---------- | ----------------- | ----------- | ----- | ------------- | ----------- |
+| pdfplumber   | 18s        | 3.5               | 1           | 2.5   | 2             | 2           |
+| pdftotext    |            |                   |             |       |               |             |
+| pymupdf      | 0.4s       | 4                 | 5           | 4     | 3             | 4           |
+| pypdf2       | 7.8s       | 4.5               | 5           | 4     | 2.75          | 4           |
+| unstructured | 17.7s      | 1                 | 4           | 1     | 2             | 1           |
 
